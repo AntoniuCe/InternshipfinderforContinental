@@ -7,13 +7,6 @@ wb = Workbook()
 ws = wb.active
 
 wsConti = wb.create_sheet("Conti ", 0)
-wsNokia = wb.create_sheet("Nokia ", 1)
-wsZF = wb.create_sheet("ZF ", 2)
-
-'''wsConti = wb["Continental jobs"]
-wsNokia = wb["Nokia jobs"]
-wsZF = wb["ZF jobs"]'''
-
 
 def conti():
     payload = {
